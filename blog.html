@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MY BLOG</title>
+	<link rel="stylesheet" type="text/css" href="style4.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="https://js/jquery-1.2.6.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="https://js/jquery-ui-personalized-1.5.2.packed.js"></script>
+	<script language="JavaScript" type="text/javascript" src="https://js/sprinkle.js"></script>
+</head>
+<body>
+<header>
+	<div class="smooth-scroll-wrapper">
+	<div class="content">
+	<div class="container">
+	    <div class="main">
+		<!-- <embed src="HxdB 3rdeye - Transpacific.mp3" loop="true" autostart="true">  -->	
+		<div class="background1">
+		<img src="Background.jpg">
+	    </div>
+	    <p class="text">
+	    	Now, I have been playing tennis for a really long time. That was the first sport I ever played, and I instantly loved it. Seeing Roger Federer on screen really drove me to aspire to become a tennis player. They hit the ball so hard, and with pin-point accuracy. The thing is, I first started playing tennis when I was really young, and I had nothing else to do and I literally played all the time and tried to copy Federer. Just trying to copy him took up all my free time and that's why I stuck with tennis. It makes me work hard and sweat, and I don't even break a leg in the process! Roger Federer is the best:)  
+	    </p>
+	</div>
+	    <div class="background2">
+		<img src="Capture.jpg">
+	    </div>
+	    <p class="text">
+	    	My favourite subject has always been Math(no offence Priyanka ma'am), and I hope it stays that way. Learning Math is like playing tennis. You know the concepts, but you still have to practice daily if you want to perfect it. The saying still comes in handy - "Practice makes perfect". For two years now, I've had this wonderful Math teacher. His name is Prakash sir(guy above this text), and I look up to him. The way he teaches Math is unreal, and I hope to have him in as my Math teaher in the coming years.  
+	    </p>
+	    </div>
+	    <div class="background3">
+		<img src="8series.jpg">
+	    </div>
+		<p class="text">
+	    	A passion of mine for a long time has always been cars. By the time I was seven years old, I knew every car model in my apartment. Even to this day, I've got a thing for cars. What I can say for sure, is that I LOVE BMW(you probably noticed by now). I am a hardcore fanboy. It's that BMW magic, you can't really describe it. They make cars look ultra cool, and they go really quick as well. When I was 10, I went for this VW course which explained the entire car and the nibbly little parts, here and there. I'm not trying to gloat now, basically what I'm saying is that my love for cars was, and still is SO HUGE, that I even knew about how cars worked when I was pretty young:)   
+	    </p>
+		</div>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li class="active"><a href="#">My Blog</a></li>
+		</ul>
+	    </div>
+	<div class="title">
+		<h1><span>MY</span> BLOG.</h1>
+	</div>
+	<!-- <div class="button">
+		<a href="https://www.youtube.com/watch?v=ScKohNh-1E8" class="btn">WATCH VIDEOS</a>
+		<a href="" class="btn">LEARN MORE</a>
+	</div>
+    <div class="animate">
+		<div class="flex-container">
+			<div class="flex-items">
+				<i class="fa fa-diamond text-blue"></i>
+				<h5>Why We Like Roger</h5>
+				<p>His playing style consists of elegance and suave. He has a distinctive style</p>
+			</div>
+			 <div class="flex-items">
+				<i class="fa fa-diamond text-blue"></i>
+				<h5>Why We Like Tennis</h5>
+				<p>It's a tough game, and it raises our competitve spirit. It makes us sweat, and work hard</p>
+			</div>
+			<div class="flex-items">
+				<i class="fa fa-diamond text-blue"></i>
+				<h5>How To Start Playing</h5>
+				<p>The key is to not make mistakes, but obviously, no one is perfect. Do your best</p>
+		    </div>
+	    </div>   
+    </div> -->
+<script>
+	var elements = $(".text").toArray();
+	$(window).scroll(function() {
+        elements.forEach(function (item) {
+            if ($(this).scrollTop() >= $(item).offset().top - 400) {
+            	$(item).addClass("reveal")
+            }
+        });
+	});
+	elements.forEach(function(item) {
+      if ($(this).scrollTop() >= $(item).offset().top - 400) {
+      	  $(item).addClass("reveal");
+      }
+	});
+</script>
+</header>
+</body>
+</html>

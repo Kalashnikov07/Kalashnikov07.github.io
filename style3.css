@@ -1,0 +1,211 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica; 
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../BMW.jpg);
+	height: 150vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+    float: right;
+	margin-top: 23px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid solid transparent;
+    transition: 0.6s ease;
+    overflow: hidden;
+    left: 30%;
+}
+
+.tabhover li a:hover{
+	background-color: transparent;
+	color: #01d7a7;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #01d7a7;
+}
+
+.info p ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid solid transparent;
+    transition: 0.6s ease;
+    overflow: hidden;
+}
+
+.info p ul li a:hover{
+	background-color: transparent;
+	color: #01d7a7;
+}
+.info p ul li.active a{
+	background-color: #fff;
+	color: #01d7a7;
+}
+
+.info ul{
+    margin-right: 38%;
+	margin-top: 75px;
+}
+
+.logo img{
+	float: left;
+	width: 150px;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 53%;
+	transform: translate(-50%,-50%);
+
+}
+
+.title h1{
+    color: #fff;
+    font-size:70px;	
+}
+
+.button{
+	position: absolute;
+	top: 120%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #01d7a7;
+}
+
+.title h1 span{
+	color: #01d7a7 !important;
+}
+
+.animate{
+	position: absolute;
+	top: 91%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+    color: #fff;
+}
+
+/*.flex-container{
+	margin-top: 200px;
+	clear: both;
+	flex-direction: left;
+}*/
+
+.animate .flex-container .flex-items{
+	width: 20%;
+	display: inline-block;
+    text-align: center;
+    margin-left: 46px;
+    /*margin-top: 50px;*/
+ }
+
+.animate .flex-container .flex-items h5{
+	font-size: 25px;
+	letter-spacing: 0.5px;
+	margin: 20px 0px;
+	color: #fff;
+}
+
+.animate .flex-container .flex-items p{
+	color: #fff
+}
+
+.animate .flex-container .flex-items i{
+	font-size: 40px;
+	color: #fff !important;
+}
+
+.info p{
+	color: #fff;
+	margin-top: 50%;
+	font-family: Arial;
+    font-size: 48px;
+    text-align: center;
+}
+
+.social-menu ul{
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	padding: 0;
+	margin: 0;
+	transform: translate(-50%, -50%);
+	display: flex;
+}
+
+.social-menu ul li{
+	list-style: none;
+	margin: 0 15px;
+}
+
+.social-menu ul li .fa{
+	font-size: 30px;
+	line-height: 60px;
+	transition: .6s;
+	color: #000;
+}
+
+.social-menu ul li a{
+	position: relative;
+	display: block;
+	width: 30px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #fff;
+	text-align: center;
+	transition: .6s;
+	box-shadow: 0 5px 4px rgba(0,0,0,0.5);
+}
+
+.social-menu ul li a:hover{
+	transform: translate(0, -10px);
+}
+
+.social-menu ul li .fa:hover{
+	color: #fff; 
+}
+
+.social-menu ul li:nth-child(1) a:hover{
+	 background-color: #3b5999;
+}
+
+.social-menu ul li:nth-child(2) a:hover{
+	 background-color: #e4405f;
+}
+
+.social-menu ul li:nth-child(3) a:hover{
+	 background-color: #ff0000;
+}
+
